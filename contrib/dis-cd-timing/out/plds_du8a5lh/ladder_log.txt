@@ -1,0 +1,45 @@
+prior: r0=24.921551846562572 r1=57.8392120016877 c1=-3.895053512045217E-05 c2=1.5748336087855265E-05 c3=0 sectors=359849 (mean pitch 1.4865 um; sigma r0 0.5 mm, pitch 8.0 %; --prior)
+SET CD SPEED 0x06E4: ok
+settle: period=29.52839 ms coherence=0.999 scatter=2.15 deg; reference LBA 145450
+band LBA 4500..356504 of 359849 (prior 25.60..57.62 mm), reference LBA 145450 (prior 41.500 mm); start r0=24.921695 r1=57.839277 (prior sigma r0 0.5 mm, pitch 8.0 %)
+rung  0: lba 145458 r=40.69 mm turns=     0.491 sigma=0.415 deg miss-vs-prediction=    0.11 deg used=24 rejected=0 period=29.52283 ms -> r0=24.823313 r1=56.464968
+rung  1: lba 145459 r=40.69 mm turns=     0.555 sigma=0.470 deg miss-vs-prediction=    1.12 deg used=12 rejected=0 period=29.52413 ms -> r0=24.823313 r1=56.464968  [confirmed by the next sector]
+rung  2: lba 145442 r=41.65 mm turns=    -0.485 sigma=0.299 deg miss-vs-prediction=    8.70 deg used=22 rejected=2 period=29.52461 ms -> r0=24.940507 r1=58.096925
+rung  3: lba 145443 r=41.65 mm turns=    -0.426 sigma=0.531 deg miss-vs-prediction=    7.54 deg used=12 rejected=0 period=29.52549 ms -> r0=24.940507 r1=58.096925  [confirmed by the next sector]
+rung  4: lba 145474 r=41.62 mm turns=     1.473 sigma=0.362 deg miss-vs-prediction=    0.73 deg used=24 rejected=0 period=29.52614 ms -> r0=24.935883 r1=58.031379
+rung  5: lba 145426 r=41.55 mm turns=    -1.470 sigma=0.327 deg miss-vs-prediction=   -1.89 deg used=23 rejected=1 period=29.52691 ms -> r0=24.926429 r1=57.920236
+rung  6: lba 145515 r=41.56 mm turns=     3.985 sigma=0.780 deg miss-vs-prediction=   -0.61 deg used=24 rejected=0 period=29.52372 ms -> r0=24.926656 r1=57.931865
+rung  7: lba 145385 r=41.54 mm turns=    -3.984 sigma=0.958 deg miss-vs-prediction=   -1.12 deg used=24 rejected=0 period=29.52378 ms -> r0=24.924580 r1=57.921628
+rung 8: no agreeing pair yet (lba 147948 -2.34 +- 0.37 deg, lba 147949 -2.08 +- 0.72 deg); measuring lba 147950
+rung  8: lba 147948 r=41.78 mm turns=   152.682 sigma=0.368 deg miss-vs-prediction=   -2.34 deg used=24 rejected=0 period=29.52136 ms -> r0=24.908988 r1=57.934784
+rung  9: lba 147950 r=41.78 mm turns=   152.802 sigma=0.599 deg miss-vs-prediction=   -3.13 deg used=12 rejected=0 period=29.52177 ms -> r0=24.908988 r1=57.934784  [confirmed by the next sector]  [lba 147949 (-2.08 deg, sigma 0.72) disagreed: not used]
+rung 10: lba 140428 r=41.09 mm turns=  -309.515 sigma=0.403 deg miss-vs-prediction=   -2.51 deg used=23 rejected=3 period=29.52313 ms -> r0=24.841671 r1=57.976764
+rung 11: lba 140429 r=41.09 mm turns=  -309.454 sigma=0.309 deg miss-vs-prediction=   -2.99 deg used=11 rejected=2 period=29.52301 ms -> r0=24.841671 r1=57.976764  [confirmed by the next sector]
+rung 12: lba 170342 r=43.77 mm turns=  1485.953 sigma=0.220 deg miss-vs-prediction=   47.87 deg used=22 rejected=2 period=29.52413 ms -> r0=24.908915 r1=57.933272
+rung 13: lba 170343 r=43.77 mm turns=  1486.011 sigma=0.487 deg miss-vs-prediction=   47.64 deg used=11 rejected=1 period=29.52461 ms -> r0=24.908915 r1=57.933272  [confirmed by the next sector]
+rung 14: no agreeing pair yet (lba 84752 19.64 +- 0.53 deg, lba 84753 19.44 +- 0.68 deg); measuring lba 84754
+rung 14: lba  84752 r=35.57 mm turns= -4008.795 sigma=0.535 deg miss-vs-prediction=   19.64 deg used=24 rejected=0 period=29.52413 ms -> r0=24.911865 r1=57.931626
+rung 15: lba  84754 r=35.57 mm turns= -4008.650 sigma=0.528 deg miss-vs-prediction=   20.43 deg used=12 rejected=0 period=29.52667 ms -> r0=24.911865 r1=57.931626  [confirmed by the next sector]  [lba 84753 (19.44 deg, sigma 0.68) disagreed: not used]
+rung 16: lba 356504 r=57.71 mm turns= 10828.977 sigma=0.331 deg miss-vs-prediction=   -5.73 deg used=23 rejected=2 period=29.51894 ms -> r0=24.911714 r1=57.931754
+rung 17: lba 356505 r=57.71 mm turns= 10829.022 sigma=0.404 deg miss-vs-prediction=   -5.43 deg used=12 rejected=0 period=29.51929 ms -> r0=24.911714 r1=57.931754  [confirmed by the next sector]
+rung 18: no agreeing pair yet (lba 4500 5.14 +- 0.98 deg, lba 4501 6.12 +- 0.59 deg); measuring lba 4502
+rung 18: no agreeing pair yet (lba 4500 5.14 +- 0.98 deg, lba 4501 6.12 +- 0.59 deg, lba 4502 5.75 +- 0.64 deg); measuring lba 4503
+rung 18: lba   4501 r=25.59 mm turns=-10692.111 sigma=0.592 deg miss-vs-prediction=    6.12 deg used=12 rejected=0 period=29.52035 ms -> r0=24.911781 r1=57.931736
+rung 19: lba   4503 r=25.59 mm turns=-10691.917 sigma=0.247 deg miss-vs-prediction=    4.18 deg used=11 rejected=2 period=29.52047 ms -> r0=24.911781 r1=57.931736  [confirmed by the next sector]  [lba 4500 (5.14 deg, sigma 0.98) disagreed: not used]  [lba 4502 (5.75 deg, sigma 0.64) disagreed: not used]
+rung 20: lba   7287 r=26.00 mm turns=-10417.075 sigma=0.429 deg miss-vs-prediction=    1.37 deg used=22 rejected=4 period=29.52083 ms -> r0=24.911785 r1=57.931735
+rung 21: lba  21494 r=28.00 mm turns= -9077.154 sigma=0.315 deg miss-vs-prediction=    1.15 deg used=21 rejected=3 period=29.52118 ms -> r0=24.911788 r1=57.931736
+rung 22: lba  36753 r=30.00 mm turns= -7737.267 sigma=0.364 deg miss-vs-prediction=   -0.66 deg used=24 rejected=2 period=29.52183 ms -> r0=24.911788 r1=57.931735
+rung 23: lba  53065 r=32.00 mm turns= -6397.316 sigma=0.451 deg miss-vs-prediction=    1.29 deg used=24 rejected=0 period=29.52207 ms -> r0=24.911787 r1=57.931737
+rung 24: lba  70430 r=34.00 mm turns= -5057.326 sigma=0.337 deg miss-vs-prediction=    0.63 deg used=24 rejected=0 period=29.52254 ms -> r0=24.911786 r1=57.931739
+rung 25: lba  88847 r=36.00 mm turns= -3717.373 sigma=0.335 deg miss-vs-prediction=   -1.47 deg used=24 rejected=1 period=29.52307 ms -> r0=24.911789 r1=57.931735
+rung 26: lba 108316 r=38.00 mm turns= -2377.441 sigma=0.345 deg miss-vs-prediction=   -0.73 deg used=22 rejected=2 period=29.52331 ms -> r0=24.911790 r1=57.931733
+rung 27: lba 128837 r=40.00 mm turns= -1037.532 sigma=0.876 deg miss-vs-prediction=    0.06 deg used=24 rejected=0 period=29.52159 ms -> r0=24.911790 r1=57.931733
+rung 28: lba 150411 r=42.00 mm turns=   302.416 sigma=0.272 deg miss-vs-prediction=    0.57 deg used=24 rejected=0 period=29.52395 ms -> r0=24.911789 r1=57.931734
+rung 29: lba 173038 r=44.00 mm turns=  1642.392 sigma=0.751 deg miss-vs-prediction=   -1.77 deg used=24 rejected=0 period=29.52088 ms -> r0=24.911789 r1=57.931734
+rung 30: lba 196716 r=46.00 mm turns=  2982.300 sigma=0.853 deg miss-vs-prediction=    0.54 deg used=24 rejected=0 period=29.51835 ms -> r0=24.911789 r1=57.931734
+rung 31: lba 221447 r=48.00 mm turns=  4322.238 sigma=0.465 deg miss-vs-prediction=    0.68 deg used=24 rejected=0 period=29.52449 ms -> r0=24.911789 r1=57.931733
+rung 32: lba 247231 r=50.00 mm turns=  5662.204 sigma=0.856 deg miss-vs-prediction=   -0.50 deg used=24 rejected=0 period=29.51917 ms -> r0=24.911789 r1=57.931734
+rung 33: lba 274067 r=52.00 mm turns=  7002.152 sigma=0.356 deg miss-vs-prediction=   -0.35 deg used=24 rejected=0 period=29.51787 ms -> r0=24.911789 r1=57.931735
+rung 34: lba 301955 r=54.00 mm turns=  8342.081 sigma=0.794 deg miss-vs-prediction=   -0.41 deg used=24 rejected=0 period=29.52012 ms -> r0=24.911789 r1=57.931735
+rung 35: lba 330896 r=56.00 mm turns=  9682.043 sigma=0.401 deg miss-vs-prediction=    1.05 deg used=24 rejected=0 period=29.51829 ms -> r0=24.911791 r1=57.931731
+ladder completed=True in 9.3 min

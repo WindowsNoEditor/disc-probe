@@ -1,0 +1,41 @@
+pattern: patterns/probe_newmodel_4096.png (probe), layer span +-57.93170828 mm
+burn:  ri 24.91176198 ro 57.93170828 constant pitch (area formula), 359849 sectors
+true:  ri 24.91179558 ro 57.93172881 constant pitch (area formula), x = +0 B
+frame: data side, unmirrored, + = clockwise = along the track; kappa fixed so that the 40.06 mm ring crossings sit at their design angles (kappa +3.2423 deg)
+twist of the content between the outermost and innermost ring: -0.0142 turns (-5.13 deg)
+app canvas: the Design page composes CD designs on +-57.5 mm and burns white outside it, so the pattern beyond 57.5 mm is cut within +-7.0 deg of the image axes (at 57.93 mm): four white cut-outs (gaps in the outer edge ring) where the 0/90/180/270 deg arms meet it (drawn in --out; --canvas 0 turns this off)
+
+RINGS STAY RINGS: image ring R lands at true radius r; twist = rotation of that radius vs the reference ring
+    R (mm)   r true (mm)  shift (um)  twist (deg)   dD/dr (deg/mm)  arm incl. (deg)  arm width (mm)  crossings/next  gauge band (mm)  gauge edges/next
+    25.11     25.111680      +0.03       +3.178         -0.3206            8.00           0.446            0.04           78.123              0.01
+    30.05     30.048005      +0.03       +1.830         -0.2333            6.97           0.447            0.03           93.700              0.01
+    35.06     35.055998      +0.03       +0.807         -0.1796            6.27           0.447            0.03          109.473              0.00
+    40.06     40.063992      +0.02       +0.000         -0.1448            5.78           0.448            0.02          125.224              0.00
+    45.07     45.071986      +0.02       -0.662         -0.1209            5.43           0.448            0.02          140.961              0.00
+    50.08     50.079981      +0.02       -1.223         -0.1039            5.19           0.448            0.02          156.686              0.00
+    55.09     55.087977      +0.02       -1.710         -0.0912            5.01           0.448            0.01          172.402              0.00
+    57.78     57.781489      +0.02       -1.948         -0.0858            4.94           0.448               -          180.851                 -
+  arm incl. = angle of a spoke arm from radial; arm width = its line width across itself (0.45 mm when straight; below about 0.1 mm an arm is hard to see); crossings/next = arms met along a radius between this ring and the next; gauge band = width of the light and dark gauge bands across themselves
+
+RULER READINGS: ruler through one half at the 30.05 and 57.78 mm rings, extended across the hub
+  B = offset of the other half at the same rings (+ = clockwise); bow = same half vs its own ruler
+  A     0/180   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  A    30/210   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  A    60/240   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  A    90/270   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  G   105/285   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  A   120/300   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+  A   150/330   B  +8.210 /  +8.210 mm | bow 35:+0.06 40:+0.10 45:+0.11 50:+0.08 55:+0.04
+
+SPIRAL ARMS: angle (deg, clockwise, mod 360) of each arm at every ring, the 40.06 mm ring at its design angles (G = gauge edges; the inverted half runs clockwise from the first one)
+  ring         0     30     60     90   G105    120    150    180    210    240    270   G285    300    330    tick
+   25.11     3.2   33.2   63.2   93.2  108.2  123.2  153.2  183.2  213.2  243.2  273.2  288.2  303.2  333.2    13.18
+   30.05     1.8   31.8   61.8   91.8  106.8  121.8  151.8  181.8  211.8  241.8  271.8  286.8  301.8  331.8    11.83
+   35.06     0.8   30.8   60.8   90.8  105.8  120.8  150.8  180.8  210.8  240.8  270.8  285.8  300.8  330.8    10.81
+   40.06     0.0   30.0   60.0   90.0  105.0  120.0  150.0  180.0  210.0  240.0  270.0  285.0  300.0  330.0    10.00
+   45.07   359.3   29.3   59.3   89.3  104.3  119.3  149.3  179.3  209.3  239.3  269.3  284.3  299.3  329.3     9.34
+   50.08   358.8   28.8   58.8   88.8  103.8  118.8  148.8  178.8  208.8  238.8  268.8  283.8  298.8  328.8     8.78
+   55.09   358.3   28.3   58.3   88.3  103.3  118.3  148.3  178.3  208.3  238.3  268.3  283.3  298.3  328.3     8.29
+   57.78   358.1   28.1   58.1   88.1  103.1  118.1  148.1  178.1  208.1  238.1  268.1  283.1  298.1  328.1     8.05
+
+GLYPH F at 42.57 mm / 195 deg: rotated -0.35 deg, sheared -0.475 deg (-0.35 mm) across its height: readable

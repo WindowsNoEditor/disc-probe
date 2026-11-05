@@ -1,0 +1,103 @@
+{
+  "probe": "cd-timing-probe, capacity-aware (2026-11-04)",
+  "phase": "calibrate",
+  "command": "autocal --prior 24.921551846562572 57.8392120016877 -3.895053512045217e-05 1.5748336087855265e-05 0.0",
+  "created": "2026-11-05T11:27:45+08:00",
+  "drive": "PLDS DVD+-RW DU-8A5LH 6D1M",
+  "capacity": {
+    "sectors_used": 359849,
+    "sectors_source": "TOC lead-out",
+    "toc_lead_out_lba": 359849,
+    "read_capacity_last_lba": 359848,
+    "atip_capacity_sectors": 359849,
+    "disc_status": 2,
+    "tracks": 1,
+    "first_track_lba": 0,
+    "first_track_audio": true
+  },
+  "atip": {
+    "lead_in_start": "97:27:18",
+    "lead_in_start_lba": -11607,
+    "last_lead_out_start": "79:59:74",
+    "last_lead_out_start_lba": 359849,
+    "disc_type": "CD-R"
+  },
+  "framing_offset_s": {
+    "bytes": -144,
+    "mismatches": 0,
+    "runner_up": 24,
+    "unique": true,
+    "note": "diagnostic only, never applied to r0/r1 (HP BU20N app burns: -532)"
+  },
+  "prior": {
+    "source": "--prior",
+    "r0_mm": 24.921551846562572,
+    "r1_mm": 57.8392120016877,
+    "c1": -3.895053512045217E-05,
+    "c2": 1.5748336087855265E-05,
+    "c3": 0,
+    "sectors": 359849,
+    "mean_pitch_um": 1.4864958650806785,
+    "sigma_r0_mm": 0.5,
+    "sigma_pitch_fraction": 0.08,
+    "ladder_start_constant_pitch": {
+      "r0_mm": 24.9216953501743,
+      "r1_mm": 57.8392771705905,
+      "pitch_um": 1.4864937892825119
+    }
+  },
+  "reference": {
+    "lba": 145450,
+    "choice": "given",
+    "prior_radius_mm": 41.49999535414199,
+    "fit_radius_mm": 41.54854861999821,
+    "band_inner_lba": 4500,
+    "band_outer_lba": 356504
+  },
+  "period": {
+    "speed": "06E4",
+    "settle_ms": 29.528386325161318,
+    "settle_coherence": 0.9992969851112274,
+    "settle_scatter_deg": 2.1488012248708803,
+    "last_rung_ms": 29.51828532339731
+  },
+  "ladder": {
+    "completed": true,
+    "status": "completed",
+    "pairs": 24,
+    "minutes": 9.319703293333333,
+    "rungs": 36,
+    "attempts": 40,
+    "confirmed": 8,
+    "remeasured": 0,
+    "skipped": 0,
+    "max_abs_miss_deg": 47.86669965686375,
+    "fit_constant_pitch": {
+      "note": "the probe's own unwrapping fit; use calibrate.py and the cubic tools for the burn values",
+      "r0_mm": 24.911790528791435,
+      "r1_mm": 57.93173132345549,
+      "pitch_um": 1.4926034238628632,
+      "kappa_deg": 0.6048020308912215,
+      "chi2_dof": 3.8890156394195134,
+      "residual_rms_deg": 0.768434806701593,
+      "residual_max_deg": 1.7814697555841454
+    },
+    "twist_fit_vs_prior_turns": {
+      "note": "turns a straight spoke burned with the prior winds from the reference to this LBA, on the constant-pitch fit",
+      "lba_0": 6.502430671220046,
+      "band_inner": 6.650997725672371,
+      "band_outer": -15.349875140015735,
+      "last_sector": -15.585191440023989
+    }
+  },
+  "files": [
+    "calibrate_console.txt",
+    "head_lba0-7.bin",
+    "content_samples.bin",
+    "content_samples_lba.csv",
+    "ladder_raw.csv",
+    "ladder_rungs.csv",
+    "ladder_rejected.csv",
+    "ladder_log.txt"
+  ]
+}

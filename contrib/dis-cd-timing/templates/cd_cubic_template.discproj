@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 2,
+  "name": "三次轨距验证",
+  "discFamily": "cd",
+  "geometry": {
+    "innerRadiusMm": 24.921551846562572,
+    "outerRadiusMm": 57.838950219991993,
+    "sectors": 359845,
+    "pitchLinear": -3.8950535120452173E-05,
+    "pitchQuadratic": 1.5748336087855265E-05,
+    "pitchCubic": 0
+  },
+  "layers": [
+    {
+      "id": "c0d3a1b2e4f5061728394a5b6c7d8e9f",
+      "name": "verify_pattern_v2_4096.png",
+      "imagePath": "D:\\CD\\cd-timing-probe\\patterns\\verify_pattern_v2_4096.png",
+      "visible": true,
+      "translateXMm": 0,
+      "translateYMm": 0,
+      "rotationDeg": 0,
+      "scale": 1
+    }
+  ],
+  "outputs": {
+    "outputPath": "D:\\CD\\三次轨距验证.wav",
+    "writeCue": true,
+    "dataDirectory": "",
+    "volumeLabel": "CD_IMAGE",
+    "interleave": true
+  },
+  "calibrationSessionPath": null,
+  "thumbnailPngBase64": null,
+  "createdUtc": "2026-11-04T21:00:00+08:00",
+  "modifiedUtc": "2026-11-04T21:00:00+08:00",
+  "tone": {
+    "ditherStrength": 0,
+    "levels": 2,
+    "brightness": 0,
+    "srgbLinearization": false
+  },
+  "bluRay": null
+}
