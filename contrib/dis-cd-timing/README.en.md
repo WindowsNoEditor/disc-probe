@@ -21,7 +21,7 @@ Licence: GPL-3.0-or-later (as DIS; compatible with disc-probe's GPL-3.0).
 - Quadratic values: ri 24.921551846562572, ro 57.838950219991993, c1 −3.8950535120452173e−05, c2 1.5748336087855265e−05, c3 0. Disc 5, burned with them, has straight solid spokes.
 - Disc 5 has an along-track step of about +0.20 ± 0.05 mm near sector 65 600 (r ≈ 33.4 mm). It shows both in a photo and in the timing; the read-back data are continuous. See `docs/seam_disc5_zh.md`, `docs/jog_photo_annotated.png` and `results/disc5_jog*`. The new disc below has no step at that sector.
 
-**New CD-R type (ATIP lead-in 97:27:18, 359849 sectors), one probe disc**
+**Haicun POSO CD-R 52X / 80 min / 700 MB (ATIP lead-in 97:27:18, 359849 sectors), one probe disc**
 - The fit chose constant pitch: ri 24.911761984709965, ro 57.93170828230436, all coefficients 0 (`out/newmodel_fit_final.json`).
 - Two runs on the HP BU20N, fitted separately, agree within about 1 nm.
 - No step around sector 65 500: g = −0.01 ± 0.04 mm (`out/newmodel_seam`).

@@ -33,6 +33,6 @@
 |---|---|
 | `contrib/dis-cd-timing/analysis/rungs_all_runs.csv` | 联想 Thinkplus CD-R 两张盘、4 次阶梯（一次 2 倍转速）的 99 个点；二次轨距 χ²/ν 1.72 |
 | `contrib/dis-cd-timing/results/disc5_jog*` | 第 5 张盘 r ≈ 33.4 mm 处约 +0.2 mm 沿轨台阶的定点测量（照片见 `docs/jog_photo_annotated.png`） |
-| `contrib/dis-cd-timing/out/newmodel*` | 新型号 CD-R（ATIP 97:27:18）一张探测盘：HP BU20N 两次测量和接缝定点测量，恒定轨距；同一扇区没有台阶 |
+| `contrib/dis-cd-timing/out/newmodel*` | 海存 POSO CD-R（ATIP 97:27:18）一张探测盘：HP BU20N 两次测量和接缝定点测量，恒定轨距；同一扇区没有台阶 |
 | `contrib/dis-cd-timing/out/plds_du8a5lh` | 同一张盘在另一台电脑的 PLDS DU-8A5LH 上（0x06E4，2032 rpm）：几何一致，沿轨常数 x ≈ −603 字节 |
 | `contrib/dis-cd-timing/results/gating` | READ CD 完成时刻门控实验：完成由最后一个请求扇区决定，通道选择只加固定处理时间 |
