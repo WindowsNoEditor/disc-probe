@@ -1,0 +1,17 @@
+                                               SPTI                  IMAPI
+setup read_method                            readcd                 readcd
+setup last_lba                               359848                 359848
+setup profile_name                           CD-ROM                 CD-ROM
+cache strategy                                evict                  evict
+cache plain p50 us                           9800.4                 9786.4
+rotation                                        CAV                    CAV
+zone 0.05 ( 27.6 mm)          48.3485 ms, 55.4 us/0.413 deg | 48.3485 ms, 52.8 us/0.393 deg
+zone 0.50 ( 44.7 mm)          48.3485 ms, 62.2 us/0.463 deg | 48.3485 ms, 43.1 us/0.321 deg
+zone 0.95 ( 56.9 mm)          48.3485 ms, 62.1 us/0.463 deg | 48.3485 ms, 63.2 us/0.471 deg
+phase per target (deg, target minus reference completion, mod 360):
+  LBA  53977: SPTI  192.688 +- 0.146 (std 0.823, n 32)   IMAPI  192.380 +- 0.129 (std 0.728, n 32)   diff -0.308 +- 0.195 (-1.6 sigma)
+  LBA 125946: SPTI   68.355 +- 0.126 (std 0.699, n 31)   IMAPI   68.220 +- 0.244 (std 1.358, n 31)   diff -0.135 +- 0.275 (-0.5 sigma)
+  LBA 197916: SPTI   23.161 +- 0.176 (std 0.978, n 31)   IMAPI   23.444 +- 0.125 (std 0.683, n 30)   diff +0.283 +- 0.216 (+1.3 sigma)
+  LBA 269886: SPTI   76.031 +- 0.121 (std 0.675, n 31)   IMAPI   75.730 +- 0.091 (std 0.515, n 32)   diff -0.301 +- 0.151 (-2.0 sigma)
+  LBA 341855: SPTI  187.783 +- 0.190 (std 1.061, n 31)   IMAPI  187.525 +- 0.080 (std 0.444, n 31)   diff -0.258 +- 0.206 (-1.3 sigma)
+5 targets: chi2 9.98 for 5 dof; mean diff -0.144 deg
