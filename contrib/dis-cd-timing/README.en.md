@@ -25,6 +25,7 @@ Licence: GPL-3.0-or-later (as DIS; compatible with disc-probe's GPL-3.0).
 - The fit chose constant pitch: ri 24.911761984709965, ro 57.93170828230436, all coefficients 0 (`out/newmodel_fit_final.json`).
 - Two runs on the HP BU20N, fitted separately, agree within about 1 nm.
 - No step around sector 65 500: g = −0.01 ± 0.04 mm (`out/newmodel_seam`).
+- A final disc burned with these values on the other PC's PLDS DU-8A5LH (not the BU20N that measured them) shows the design undistorted (by eye; not yet checked with a ruler).
 - Its mean pitch is about 0.4 % larger than the Lenovo disc's.
 
 **Same disc, second drive (PLDS DVD±RW DU-8A5LH on another PC)**
